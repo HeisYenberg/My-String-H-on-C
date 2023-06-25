@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "s21_string.h"
+#include "../s21_string.h"
 
 Suite *test_sprintf();
 Suite *test_memchr(void);

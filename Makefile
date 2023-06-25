@@ -19,11 +19,11 @@ s21_string.a:
 	ar -crs s21_string.a s21_*.o
 
 test:
-	gcc $(CC) $(DEFINE) test*.c s21_string.a $(FLAGS) -lgcov -coverage -o test
+	gcc $(CC) $(DEFINE) tests/test*.c s21_string.a $(FLAGS) -lgcov -coverage -o test
 	./test
 
 gcov_report: clean
-	gcc $(CC) $(DEFINE) test*.c s21_*.c $(FLAGS) -o test
+	gcc $(CC) $(DEFINE) tests/test*.c s21_*.c $(FLAGS) -o test
 	./test
 	lcov -t "./test"  -o report.info --no-external -c -d .
 	genhtml -o report report.info
