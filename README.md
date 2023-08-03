@@ -1,18 +1,18 @@
-# S21-String+
+# MY-String-H-on-C
 
 ## My version of the standard string.h library, with addition of sprintf and sscanf in the C programming language.
 
 ## Usage :
 
-- To build a library run `make s21_string.a`
+- To build a library run `make my_string.a`
 - To see tests run `make test`, might need to install `check`
 - To see tests code coverage run `make gcov_report`, might need to install `lcov`
 
-### Type s21_size_t
+### Type my_size_t
 
-### Macro S21_NULL
+### Macro MY_NULL
 
-### Overview of "s21_string.h" functions
+### Overview of "my_string.h" functions
 
 | No. | Function                                                            | Description                                                                                                                                                                                                                                                                                                                     |
 |-----|---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
